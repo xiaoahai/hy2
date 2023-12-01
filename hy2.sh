@@ -1,5 +1,6 @@
 #!/bin/bash
 
+chmod+x hy2.sh
 echo "1
 1
 11443
