@@ -1,4 +1,5 @@
 #!/bin/bash
+
 chmod +x hysteria.sh
 echo "1
 1
