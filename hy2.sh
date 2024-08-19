@@ -1,12 +1,14 @@
 #!/bin/bash
 
 echo "1
-1
 11443
+2
+
 1
+
 
 
 " > input
-wget -N --no-check-certificate https://raw.githubusercontent.com/Misaka-blog/hysteria-install/main/hy2/hysteria.sh && bash hysteria.sh < input
+wget -N --no-check-certificate https://github.com/seagullz4/hysteria2/raw/main/install.sh -o install.sh && chmod +x install.sh && bash install.sh < input
 
 chmod +x hysteria.sh
