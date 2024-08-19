@@ -9,6 +9,6 @@ echo "1
 
 
 " > input
-wget -N --no-check-certificate https://github.com/seagullz4/hysteria2/raw/main/install.sh -o install.sh &&  bash install.sh < input
+wget -N --no-check-certificate https://github.com/seagullz4/hysteria2/raw/main/install.sh &&  bash install.sh < input
 
 chmod +x install.sh
